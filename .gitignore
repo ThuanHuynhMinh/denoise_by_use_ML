@@ -1,0 +1,17 @@
+# 1. Bỏ qua tất cả các thư mục data và checkpoint ở MỌI CẤP (Gốc hoặc con)
+**/data/
+**/checkpoint/
+**/checkpoints/
+
+# 2. Bỏ qua tất cả file trọng số mô hình ở bất kỳ đâu
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# 3. Bỏ qua file ảnh output, bộ nhớ tạm Python và VS Code
+*.png
+*.jpg
+__pycache__/
+.vscode/
+.venv/
